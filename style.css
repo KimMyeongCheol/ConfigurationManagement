@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+div#wrap{
+    width: 1350px;
+    padding: 0px;
+    border: 1px solid rgb(172, 166, 166);
+margin: 0 auto;
+}
+
+#gnb ul#mainMenu{
+   justify-content: center;
+}
+
+#gnb #mainMenu a{
+    border: 1px solid #aaa;
+   text-align: center;
+   padding: 10px 0;
+    width: 150px;
+    display: inline-block;
+}
+
+#gnb #mainMenu li:hover>a{
+    font-weight: bold;
+    color: #fff;
+    /* background-color: rgba(24, 158, 235, 0.651); */
+}
+
+div#top{
+    padding-top: 0;
+margin-top: 0;
+    background-color:#daf2fc;
+}
+
+nav#gnb{
+position: relative;
+   right: 0px;
+   left: 150px;
+   
+}
+
+div#slideshow #shuttleFrame span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 4px solid rgba(170, 170, 170, 0.6);
+    border-radius: 10px;
+    background-color: rgba(204, 204, 204, 0.6);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+div#slideshow #shuttleFrame a {
+    position: relative;
+   
+}
+
+
+div#slideshow {
+    overflow: hidden;
+    width: 90%;
+margin-top: 100px;
+    margin: 0 auto;
+    padding-top: 0px;
+}
+
+
+
+button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px 14px;
+    border: 1px solid #aaa;
+    position: static;
+    top: 400px;
+}
+table{
+    width: 400px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+div#gallery td{
+    text-align: center;
+}
+
+
+div#gallery td{
+    text-align: center;
+}
+
+div.tabContents span{
+
+    cursor: pointer;
+}
+
+
+div#layerPopup h2{
+font-size: 17px;
+font-weight: bold;
+}
+div#layerPopup{
+    padding: 20px;
+    width: 550px;
+    border: 4px solid rgb(158, 148, 148);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.808);
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div#layerPopup ul{
+    margin: 30px;
+    list-style-type: disc ;
+
+}
+
+
+div#layerPopup ul li{
+
+line-height: 24px;
+font-weight: bold;
+}
+
+div#gallary{
+
+    background-attachment: fixed;
+  
+
+}
+
+div#bottom{
+justify-content: center;
+   overflow: hidden;
+ padding: 20px 20px auto;
+ margin: 20px 20px;
+ position: relative;
+ left: 0px;
+ right: 0;
+}
+
+#bottom #pic{
+
+    margin-left: 20px;
+}
+
+
+#bottom #gallary{
+margin-left: 20px;
+}
+
+div#footer{
+background-color:#daf2fc ;
+    text-align: center;
+}
+
+
+#footer div#right{
+box-sizing: border-box;
+size: 20px;
+font-size: 40px;
+position: relative;
+left: 550px;
+bottom: 50px;
+}
